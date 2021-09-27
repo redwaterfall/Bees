@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+html {
+    height: 100vh;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #000;
+    height: 500vh;
+    margin: 0;
+  }
+
+#bees-video{
+    width: 100vw; 
+    height: 100vh;
+    position: fixed; 
+    z-index: -1; 
+}
+.textContainer{
+    width:50%;
+    height: 30%;
+    position: fixed;
+    top:35%;
+    left:25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bee-text{
+    font-size: 150%;
+    color: azure;
+
+    font-family: 'Luckiest Guy', cursive;
+}
